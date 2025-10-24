@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Shanks Physiotherapy | Movement is Medicine.</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import and body styles */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4); /* Custom shadow for emerald-500 */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Brand Name -->
+            <a href="#home" class="text-2xl font-bold text-emerald-700">Joe Shanks <span class="text-gray-900">Physiotherapy</span></a>
+            
+            <!-- CTA Button (Visible on all sizes) -->
+            <a href="#contact" class="px-4 py-2 bg-emerald-600 text-white font-semibold rounded-lg hover:bg-emerald-700 transition duration-300 shadow-md">
+                Book Now
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-emerald-50 pt-20 pb-20 sm:pt-32 sm:pb-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                <span class="text-emerald-600">Movement is</span> Medicine.
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                Based in North Dorset (Sturminster Newton), we help you achieve relief from pain and regain your full strength with personalized, hands-on physiotherapy.
+            </p>
+            <a href="#services" class="cta-button inline-block px-8 py-4 bg-emerald-600 text-white text-lg font-bold rounded-xl shadow-lg hover:bg-emerald-700">
+                Explore Our Services
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-12">
+                What We Offer
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Manual Therapy -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-emerald-400">
+                    <div class="text-4xl mb-4 text-emerald-600">🙌</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Hands-On Manual Therapy</h3>
+                    <p class="text-gray-600">Target joint stiffness and muscle tension immediately with specialized techniques like joint mobilization and soft tissue release.</p>
+                </div>
+
+                <!-- Service 2: Exercise Rehab -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-emerald-400">
+                    <div class="text-4xl mb-4 text-emerald-600">🏋️</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Personalized Exercise Rehab</h3>
+                    <p class="text-gray-600">Build long-term strength and stability. We design tailored exercise programs to help you prevent future injuries and stay active.</p>
+                </div>
+
+                <!-- Service 3: Sports Injury -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-emerald-400">
+                    <div class="text-4xl mb-4 text-emerald-600">🏃‍♀️</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Sports Injury & Recovery</h3>
+                    <p class="text-gray-600">Fast-track your return to sport. Comprehensive treatment from acute injury management to performance optimization.</p>
+                </div>
+            </div>
+
+            <!-- PRICING BLOCK -->
+            <div class="mt-16 text-center max-w-2xl mx-auto p-8 bg-emerald-100 rounded-xl shadow-xl border border-emerald-200">
+                <h3 class="text-2xl font-bold text-emerald-800 mb-6">Pricing & Appointments</h3>
+                <p class="text-lg text-gray-700 mb-6">Transparent pricing for personalized, one-on-one treatment sessions:</p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8 font-semibold text-gray-900">
+                    
+                    <!-- 60 Minute Price -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-b-4 border-emerald-500 w-full sm:max-w-[180px] hover:shadow-2xl transition duration-300">
+                        <p class="text-4xl text-emerald-600 mb-1 font-extrabold">£60</p>
+                        <p class="text-sm uppercase tracking-wider text-gray-600">for 60 Minutes</p>
+                    </div>
+                    
+                    <!-- 45 Minute Price -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-b-4 border-emerald-500 w-full sm:max-w-[180px] hover:shadow-2xl transition duration-300">
+                        <p class="text-4xl text-emerald-600 mb-1 font-extrabold">£45</p>
+                        <p class="text-sm uppercase tracking-wider text-gray-600">for 45 Minutes</p>
+                    </div>
+                </div>
+                <a href="#contact" class="mt-8 cta-button inline-block px-8 py-3 bg-emerald-600 text-white font-bold rounded-xl shadow-lg hover:bg-emerald-700 text-base">
+                    Book Your Appointment
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Joe and Review CTA Section -->
+    <section id="about" class="py-16 sm:py-24 bg-emerald-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-16">
+                Meet Joe & Our Approach
+            </h2>
+
+            <!-- 1. Meet Joe Section -->
+            <div class="bg-white p-8 rounded-xl shadow-xl border-t-4 border-emerald-500">
+                <h3 class="text-2xl font-bold text-emerald-700 mb-4">The Joe Shanks Story</h3>
+                <p class="text-lg text-gray-700 mb-4">
+                    Joe's journey began right here in North Dorset. His passion for movement led him to study Exercise Science, followed by a degree in Physiotherapy. This blend of academic knowledge and local roots forms the foundation of his practice.
+                </p>
+                <p class="text-lg text-gray-700">
+                    Joe takes a truly holistic approach, viewing the body as an interconnected system. This philosophy, backed by a deep, diverse toolbox of techniques, means that whether you are dealing with a fresh acute injury or struggling with persistent chronic pain, effective help is available.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact & Footer CTA -->
+    <section id="contact" class="py-16 sm:py-24 bg-gray-900">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+                Ready to Start Your Recovery?
+            </h2>
+            <p class="text-lg text-emerald-200 mb-8">
+                Don't let pain limit your life. Contact us today to schedule your first appointment.
+            </p>
+            
+            <!-- Contact Info -->
+            <div class="mb-8 space-y-3 text-emerald-100">
+                <p class="flex items-center justify-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+                    <span>Forgotten Frowns, Sturminster Newton, North Dorset</span>
+                </p>
+                
+                <!-- NEW FACEBOOK LINK -->
+                <p class="flex items-center justify-center space-x-2">
+                    <!-- Facebook Icon SVG (20x20) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-3v-1c0-.823.16-1 1-1h2v-3h-3c-3.109 0-5 1.946-5 5v2h-3v3h3v9h6v-9h3l.487-3h-3.487v-2z"/>
+                    </svg>
+                    <!-- Facebook link updated -->
+                    <a href="https://www.facebook.com/joeshanksphysiotherapy" target="_blank" class="hover:text-emerald-400 transition duration-200">facebook.com/joeshanksphysiotherapy</a>
+                </p>
+                
+                <p class="flex items-center justify-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
+                    <span>joeshanksphysio@gmail.com</span>
+                </p>
+            </div>
+
+            <a href="mailto:joeshanksphysio@gmail.com?subject=Physiotherapy%20Appointment%20Inquiry" class="cta-button inline-block px-10 py-4 bg-white text-emerald-600 text-xl font-bold rounded-xl shadow-xl hover:bg-gray-200">
+                Email Us Today
+            </a>
+
+            <!-- Google Map Location -->
+            <div class="mt-12 w-full max-w-xl mx-auto bg-white p-4 rounded-xl shadow-2xl overflow-hidden">
+                <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Find Us: Forgotten Frowns</h3>
+                <div class="relative w-full" style="padding-bottom: 50%;"> 
+                    <!-- The iframe uses a query for the location, making it functional out of the box -->
+                    <iframe 
+                        title="Google Maps Location for Joe Shanks Physiotherapy at Forgotten Frowns, Sturminster Newton"
+                        src="https://maps.google.com/maps?q=Forgotten+Frowns,+Sturminster+Newton,+North+Dorset&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+                        frameborder="0" 
+                        style="border:0;"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="absolute top-0 left-0 w-full h-full rounded-lg"
+                    ></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-400">
+            <p>&copy; 2024 Joe Shanks Physiotherapy. Located at Forgotten Frowns, Sturminster Newton.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
